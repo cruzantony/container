@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL maintainer="Containers on AWS"
+LABEL maintainer="Animals4life"
 RUN yum -y install httpd
 COPY index.html /var/www/html/
 COPY Containers*.png /var/www/html/
